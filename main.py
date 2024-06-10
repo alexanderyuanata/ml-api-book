@@ -32,10 +32,16 @@ def classify_text(text):
     padded_sequences = pad_sequences(sequences, maxlen=500)  # Adjust maxlen according to your model setup
     prediction = model.predict(padded_sequences)
     class_label = np.argmax(prediction, axis=1)[0]
+
     return class_label
 
 # Memberi rekomendasi
 def provide_book_recommendation(genre_label, author=None, rating_preference=None):
+    # debugging
+    print(genre_label)
+    print(author)
+    print(rating_preference)
+    
     # get genre label
     recommendations = data[data['Genre_Label'] == genre_label]
 
