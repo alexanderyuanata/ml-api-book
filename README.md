@@ -27,9 +27,9 @@ This always returns a 200 HTTP response, use it to check if the server is up or 
 This endpoint receives a POST request with a json payload and returns the model output from that payload. The payload schema is as follows:
 ```
 {
-"text": "I want to read a historical book.",
-"author": "jane austen",
-"rating_preference": "4 stars and above"
+    "text": "I want to read a historical book.",
+    "author": "jane austen",
+    "rating_preference": "4 stars and above"
 }
 ```
 
