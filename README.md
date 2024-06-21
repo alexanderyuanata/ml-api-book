@@ -61,18 +61,14 @@ The endpoint then returns an json object with the following schema:
 }
 ```
 
-- book_count: how many books are recommended (maximum of 8 books)
-- recommendations: an array of book recommendations consisting of json objects
-- status: the response status
-
 ## Local Installation
 Clone the repository
 
-    git clone https://github.com/entertainmeproject/ml-api-travel.git
+    git clone https://github.com/entertainmeproject/ml-api-book.git
 
 Move into the directory
 
-    cd ml-api-travel
+    cd ml-api-book
 
 Run the application
 
@@ -90,11 +86,11 @@ Run the built Docker image
 ## GCP Installation
 Clone the repository
 
-    git clone https://github.com/entertainmeproject/ml-api-travel.git
+    git clone https://github.com/entertainmeproject/ml-api-book.git
 
 Move into the directory
 
-    cd ml-api-travel
+    cd ml-api-book
 
 Containerize the application as follows. 
 > [!NOTE]
