@@ -96,6 +96,7 @@ Move into the directory
     cd ml-api-travel
 
 Containerize the application as follows. 
+> [!NOTE]
 > Replace anything fully capitalized and preceded with a `$` sign with the appropriate names
 
     docker build -t $REGION-docker.pkg.dev/$GCP_PROJECT/$ARTIFACT_REGISTRY_REPO/$IMAGE:$TAG .
